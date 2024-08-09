@@ -1,8 +1,8 @@
 cask "approf" do
-  version "14.1.0"
-  sha256 "e2804f050f85b22a81bf7817a6aef291dcf5d0b6d7747734ea1edcd375e5d220"
+  version "14.1.1"
+  sha256 "d5840dfa9ec8da3b290d6e4887a031b7e5930eb2211b16de4dd3a844a45f9fca"
 
-  url "https://github.com/moderato-app/approf/releases/download/v#{version}/approf.app.zip"
+  url "https://github.com/moderato-app/approf/releases/download/v#{version}/approf-#{version}.app.zip"
   name "approf"
   desc "Native app for pprof"
   homepage "https://github.com/moderato-app/approf"
